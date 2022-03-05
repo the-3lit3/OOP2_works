@@ -38,9 +38,9 @@ public class StaffMember {
 
     }
 
-    //abstract calculateSalary(getHoursWorked(), 2500, getBonus(), 1500, getAllowance());
+    //abstract calculateSalary(double hrsWorked, double hrlyRate); Abstract method that calculates the salary of each employee
 
-//    abstract calculateSalary(){
+//    double calculateSalary(){
 //     double salary = 0.0;
 //        if(deptNumber.equals("man123")){
 //            salary = (getHoursWorked()*2500) + getBonus();
