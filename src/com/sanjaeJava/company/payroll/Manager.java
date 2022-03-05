@@ -11,11 +11,22 @@ public class Manager extends StaffMember{
         return bonus;
     }
 
-    public void setBonus(Double bonus) {
-        System.out.print("\nBonus : $");
-        this.bonus = getHoursWorked() * bonus;
-    }
+//    public void setBonus(Double bonus) {
+//        System.out.print("\nBonus : $");
+//        this.bonus = getHoursWorked() * bonus;
+//    }
     public void display(){
-        System.out.print("Enter Bonus Percentage (%) : ");
+        //Override method for displaying the manager information
+        System.out.println("=======================================================================================");
+        System.out.println("======================== MANAGER =====================================================");
+        System.out.println("=======================================================================================\n");
+        System.out.println("Employee Name         : " + getFirstName() + " " + getLastName());
+        System.out.println("Department Number     : " + getDeptNumber());
+        System.out.println("Hours Worked          : " + getHoursWorked());
+        System.out.println("Manager Bonus         : $" + getBonus());
+        double salary = (getHoursWorked()*1500) + getBonus();
+        System.out.println("Manager Salary         : $" + salary);
+        //System.out.print("Enter Bonus Percentage (%) : \n\n");
+
     }
 }
