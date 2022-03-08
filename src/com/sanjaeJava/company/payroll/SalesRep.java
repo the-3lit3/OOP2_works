@@ -31,8 +31,8 @@ public class SalesRep extends StaffMember{
         System.out.println("Hours Worked          : " + getHoursWorked());
         System.out.println("Sales Rep Allowance      : $" + getAllowance());
         //double salary = calculateSalary(getHoursWorked(), 1500) + getAllowance();
-//        double salary = (getHoursWorked()*1500) + getAllowance();
-//        System.out.println("Sales Rep Salary      : $" + salary);
+        double salary = (getHoursWorked()*1500) + getAllowance();
+        System.out.println("Sales Rep Salary      : $" + salary);
 
     }
 

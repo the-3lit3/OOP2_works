@@ -24,9 +24,9 @@ public class Manager extends StaffMember{
         System.out.println("Department Number     : " + getDeptNumber());
         System.out.println("Hours Worked          : " + getHoursWorked());
         System.out.println("Manager Bonus         : $" + getBonus());
-        //double salary = calculateSalary(getHoursWorked(), 2500) + getBonus;
-//        double salary = (getHoursWorked()*2500) + getBonus();
-//        System.out.println("Manager Salary         : $" + salary);
+        //double salary = calculateSalary(getHoursWorked(), 2500) + getBonus; Abstract method called to calculate salary
+        double salary = (getHoursWorked()*2500) + getBonus();
+        System.out.println("Manager Salary         : $" + salary);
 
     }
 }

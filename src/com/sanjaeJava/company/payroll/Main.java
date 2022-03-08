@@ -1,5 +1,5 @@
 package com.sanjaeJava.company.payroll;
-import java.util.*;
+import java.util.*; //Could have imported the java.util.ArrayList library instead of the entire utility library
 
 public class Main {
 
@@ -32,7 +32,7 @@ public class Main {
         System.out.println("=======================================================================================\n");
         showRepList1.stream().iterator().forEachRemaining(System.out::println);
 
-        SalesRep s1 = new SalesRep(nStaff.getFirstName(), nStaff.getLastName(), nStaff.getDeptNumber(), nStaff.getHoursWorked(), 1500.0);
+        SalesRep s1 = new SalesRep("Randy", "Fenton","sal123",40,1500);
         Manager m1 = new Manager("Junior", "Reid", "man123", 40.0, 2500.0);
         s1.display();
         m1.display();
