@@ -1,3 +1,7 @@
+//Name : Sanjae Facey
+//ID # : 1400137119
+//Assignment # : 2 for Module 2
+
 package com.sanjaeJava.company.payroll;
 import java.util.*; //Could have imported the java.util.ArrayList library instead of the entire utility library
 
