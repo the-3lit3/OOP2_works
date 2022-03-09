@@ -37,6 +37,20 @@ public class Main {
         s1.display();
         m1.display();
 
+        //The code below implements an abstract class to calculate the salary of one manager and one sales rep
+        childCalculateSalary getBaseSalary = new childCalculateSalary("Balla","Sean","sal123",40,1500);
+        System.out.println("=======================================================================================\n");
+        childCalculateSalary getBaseSalary2 = new childCalculateSalary("Gregory","Isaacs","man123",40,2500);
+        getBaseSalary.calculateSalary();
+        System.out.println("=======================================================================================\n");
+        getBaseSalary2.calculateSalary();
+
+
+
+        //THE CODE BELOW ARE TRIAL CODE
+//        System.out.println("=======================================================================================\n");
+//        getBaseSalary.display();
+
 //        SalesRep s2 = new SalesRep("", "", "", 0.0, 0.0);
 //        int i;
 //        for (i = 0; i < showRepList1.size(); i++){
